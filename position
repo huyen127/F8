@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin:0;
+        }
+
+        h1{
+          
+            top: 100px;
+            bottom: 100px;
+        }
+        .box{
+            width: 100%;
+            height: 120px;
+            background-color:#333;
+            position: relative;
+        }
+
+        .box-child{
+            /* width: 50px;
+            height: 50px; */
+            background-color: rgba(241, 235, 235, 0.5);
+            position: absolute;
+            top:0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        /* .box2{
+            width: 400px;
+            height: 100px;
+            background-color: violet;
+            position: relative;
+        } */
+
+        .header{
+            width: 100%;
+            height: 42px;
+            background-color: #9ee2b1;
+            position: fixed;
+           
+        }
+        ul{
+            height:1000px;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="box">
+        <div class="box2">
+            <div class="box-child"></siv>
+        </div>
+    </div>
+    <h1>position  </h1> 
+        <ul>v
+            <!-- vi tri tuong doi, lay vi tri ban dau cua no lam goc -->
+            <li>Relative</li>
+
+            <!-- vi tri tuyet doi, phu thuoc vao the cha gan nhat co thuoc tinh position -->
+            <li>Absolute</li>
+
+            <!-- vi tri tuyet doi phu thuoc vao khung trinh duyet -->
+            <li>Fixed</li>
+
+            <!-- vi tri bam dinh phu, thuoc vao khung trinh duyet -->
+            <li>Sticky</li>
+            <li></li>
+        </ul>
+    
+</body>
+</html>
