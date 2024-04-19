@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html,body{
+            margin:0;
+        }
+
+        .header{
+            width: 500px;
+            height: 100vh;
+            /* background-image: 
+            url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/A_Black_Star.png/800px-A_Black_Star.png),
+            url(https://i.pinimg.com/736x/c2/e9/02/c2e902e031e1d9d932411dd0b8ab5eef.jpg);
+            background-size: 100% auto; */
+             /* background-size: 1000px; 1000px duoc hieu la set cho chieu rong, chieu cao la auto*/
+            /* background-repeat: no-repeat;
+            background-repeat: repeat;
+            background-color: azure; */
+            /* background-image: linear-gradient(180deg,rgba(0,0,0,0.5), rgba(255,255,0,0.5)), */
+            background-image:  url(https://i.pinimg.com/736x/c2/e9/02/c2e902e031e1d9d932411dd0b8ab5eef.jpg);
+             background-size: 100%;
+            /* background-size: contain;
+            contain sẽ lấy chiều dài hơn làm gốc, khi tăng hay giảm kích thước màn nó sẽ tự động
+            lấy chiều dài hơn làm gốc để đảm bảo rằng ảnh không bị che khuất
+            background-size: cover ;
+            cover sẽ lấy chiều dài gôc của bưcs ảnh, chieu nao dai hon lay lam goc -> khi kéo màn hình sẽ bị che khuẩt 1 phần của bức ảnh  */
+            
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+            border: 20px dashed #ccc;
+            padding: 20px;
+          
+            background-origin: content-box;
+            /* tức là quản lí vị trí đổ của ảnh nền, mặc định la padding - box*/
+
+            background-position: top -20px right -20px;   
+            /* chinh sua vi tri cua anh nen, 1 vi tri thi vi tri con lai la center*/
+            /* background: url(image.png) center / contain no-repeat; */
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+
+    </div>
+    
+</body>
+</html>
