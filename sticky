@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       h1{
+        margin-top: 0 16px;
+        position: sticky;
+        color: #fff;
+        position:-webkit-sticky;
+        background-color: #333;
+        /*  can quy dinh vi tri de hoat dong */
+        top: 60px;
+       }
+        
+       ul{
+        height: 2000px;
+      
+
+       }
+        </style>
+</head>
+<body>
+
+   <div class="header"></div>
+    <h1>position  </h1> 
+        <ul>
+            <!-- vi tri tuong doi, lay vi tri ban dau cua no lam goc -->
+            <li>Relative</li>
+
+            <!-- vi tri tuyet doi, phu thuoc vao the cha gan nhat co thuoc tinh position -->
+            <li>Absolute</li>
+
+            <!-- vi tri dinh vao dau or cuoi or.. cuar trinhf duyeet -->
+            <li>Fixed</li>
+
+            <!-- vi tri bam dinh, phu thuoc vao khung trinh duyet -->
+            <li>Sticky</li>
+            <li></li>
+        </ul>
+    
+</body>
+</html>
